@@ -1,0 +1,259 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    min-width: 1024px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color: #51534a;           
+}
+
+b
+{
+    font-size: 110%;
+}
+em
+{
+    color: red;
+}
+
+table {
+	background: #EEEEEE;
+	margin: 2px 0 0 0;
+	border: 1px solid #BBBBBB;
+	border-collapse: collapse;
+	width: 100%
+}
+
+table table {
+	margin: -5px 0;
+	border: 0px solid #e0e7d3;
+	width: 100%;
+}
+
+table td,table th {
+	padding: 2px;
+	border: 1px solid #CCCCCC;
+}
+
+table td form {
+	text-align:center;
+	vertical-align: middle;
+	margin: 0px;
+}
+
+table th {
+	font-size: 0.9em;	
+	font-weight: bold;
+	color: #FFF;
+	background: #999;
+}
+
+table thead {
+	font-weight: bold;
+	font-style: italic;
+	background-color: #BBBBBB;
+}
+
+table a:link {color: #303030;}
+
+a:visited
+{
+  	color:black;
+}
+
+.lineaNaranja
+{
+    height: 10px;
+    background-color: #FC4C02;
+    width: 1340px;
+}
+
+.home
+{    
+   padding-top: 60px;   
+}
+
+.home .imagen
+{
+    background-image: url('Images/bancoOnline.jpg');    
+    background-repeat: no-repeat;
+    height: 200px;    
+    width: 200px;         
+    margin:auto;       
+}
+
+.banner 
+{
+	background-color: #FFFFFF;
+	width: 1340px;
+}
+.banner .imagenDerecha
+{
+    background-image: url('Images/POL.jpg');    
+    background-repeat: no-repeat;
+    height: 75px;    
+    width: 298px;
+    min-width: 298px; 
+    margin:auto;       
+}
+
+.barraEstado
+{
+    width: 1340px;
+    background-color: #B5E3C7 ;
+}
+
+.menu
+{
+    position: absolute;
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-left: 5px;    
+}
+
+
+
+.menu ul
+{
+font-family: Arial, Helvetica, sans-serif;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+.menu li
+{
+display: inline;
+/* for IE5 and IE6 */
+}
+
+.menu a
+{	
+color: #fff;
+text-decoration: none;
+font-size: 14px;
+font-weight:bold;
+display: block;
+padding: 3px;
+width: 260px;
+background-color: #9e9e9e;
+border-bottom: 1px solid #eee;
+}
+
+.menu a:link, .menu a:visited
+{
+color: #EEE;
+text-decoration: none;
+}
+
+.menu a:hover
+{
+background-color: #FC4C02;
+color: #fff;
+}
+
+
+.visor
+{
+    position: absolute;
+    border-color: Black;
+    border-width: 1px;
+    margin-left: 280px;
+    width: 1040px;
+    padding-top: 10px;
+}
+
+.visor .plantilla
+{
+    padding: 0px;
+    height: 350px;
+    border-right: 1px solid #a4a4a2;
+    border-left: 1px solid #a4a4a2;
+    background-color: #FFFFFF;
+    overflow: auto;
+}
+
+.mensajeError
+{
+    color: Red;
+}
+    
+/************ Contenedor redondo ************************************/
+.ct1, .ct2, .ct3, .ct4, .cb1, .cb2, .cb3, .cb4
+{
+    font-size: 1px;
+    overflow: hidden;
+    display: block;
+}
+.cb1
+{
+    bottom: 0;
+}
+
+.ct1
+{
+    top: 51px;
+}
+
+.ct1, .cb1
+{
+    height: 1px;
+    background: #a4a4a2;
+    margin: 0 5px;
+}
+.ct2
+{
+    height: 1px;
+    background-color: White;
+    border-right: 2px solid #a4a4a2;
+    border-left: 2px solid #a4a4a2;
+    margin: 0 3px;
+    top: 52px;
+}
+.ct3
+{
+    height: 1px;
+    background-color: White;
+    border-right: 1px solid #a4a4a2;
+    border-left: 1px solid #a4a4a2;
+    margin: 0 2px;
+    top: 53px;
+}
+.ct4
+{
+    height: 2px;
+    background-color: White;
+    border-right: 1px solid #a4a4a2;
+    border-left: 1px solid #a4a4a2;
+    margin: 0 1px;
+    top: 54px;
+}
+.cb2
+{
+    height: 1px;
+    background-color: White;
+    border-right: 2px solid #a4a4a2;
+    border-left: 2px solid #a4a4a2;
+    margin: 0 3px;
+    bottom: 1px;
+}
+.cb3
+{
+    height: 1px;
+    background-color: White;
+    border-right: 1px solid #a4a4a2;
+    border-left: 1px solid #a4a4a2;
+    margin: 0 2px;
+    bottom: 2px;
+}
+.cb4
+{
+    height: 2px;
+    background-color: White;
+    border-right: 1px solid #a4a4a2;
+    border-left: 1px solid #a4a4a2;
+    margin: 0 1px;
+    bottom: 3px;
+}

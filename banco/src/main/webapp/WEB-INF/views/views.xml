@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="home">
+        <put-attribute name="body"
+            value="/WEB-INF/views/home.jsp" />
+    </definition>
+    <definition extends="default" name="AdmoCliente">
+        <put-attribute name="body"
+            value="/WEB-INF/views/AdmoCliente.jsp" />
+    </definition>
+    <definition extends="default" name="ActualizaCliente">
+        <put-attribute name="body"
+            value="/WEB-INF/views/ActualizaCliente.jsp" />
+    </definition>
+    <definition extends="default" name="AdmoCuenta">
+        <put-attribute name="body"
+            value="/WEB-INF/views/AdmoCuenta.jsp" />
+    </definition>
+    <definition extends="default" name="ActualizaCuenta">
+        <put-attribute name="body"
+            value="/WEB-INF/views/ActualizaCuenta.jsp" />
+    </definition>
+    <definition extends="default" name="CrearMovimiento">
+        <put-attribute name="body"
+            value="/WEB-INF/views/CrearMovimiento.jsp" />
+    </definition>
+    <definition extends="default" name="Reporte">
+        <put-attribute name="body"
+            value="/WEB-INF/views/Reporte.jsp" />
+    </definition>
+    <definition extends="default" name="ReporteExcel">
+        <put-attribute name="body"
+            value="/WEB-INF/views/ReporteExcel.jsp" />
+    </definition>                                  
+</tiles-definitions>
